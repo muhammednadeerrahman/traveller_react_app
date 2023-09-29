@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+div.places {
+  display: grid;
+  gap: 10px;
+}
+img:first-child {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+  border-top-left-radius: 12px;
+
+
+}
+
+img:nth-child(2) {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+img:nth-child(3) {
+  grid-column: 4;
+  grid-row: 1;
+  border-top-right-radius: 12px;
+
+}
+img:nth-child(5) {
+
+  border-bottom-right-radius: 12px;
+
+}
+
